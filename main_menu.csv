@@ -1,0 +1,10 @@
+c|Calculator (cmd /c)        |cmd                |/c calc.exe
+C|Calculator (direct)        |calc.exe           |-
+K|Powershell clipboard       |powershell         |-command "Write-Host Clipboard=(get-clipboard); TIMEOUT.exe 999"
+n|Notepad example.txt        |cmd                |/c notepad.exe example.txt
+a|Ask before executing       |<ASK>              |Write-Host Clipboard=(get-clipboard); Write-Host "SecondLine"
+d|example.txt                |example.txt        |-
+g|github - Default browser   |https://github.com |-
+i|github - Internet Explorer |cmd                |/c start iexplore https://github.com
+-|Insert a separator line    |-                  |-
+2|>>> Menu 2 >>>             |<LOADMENU>         |menu2.csv

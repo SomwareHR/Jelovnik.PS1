@@ -1,0 +1,11 @@
+
+Help:
+--------------------------------------------------------
+Press a key in a left column to execute a command
+[Up]-[Down] - move through menu
+[Enter]     - execute selected command
+[Right]     - execute selected command
+[!]         - edit current menu
+[ESC]       - exit script
+--------------------------------------------------------
+Press any key to exit Help

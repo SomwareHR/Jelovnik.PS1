@@ -1,0 +1,6 @@
+d|www.example.org                                           |https://www.example.org|-
+a|Another Powershell script                                 |powershell             |-file another.ps1
+c|case                                                      |cmd                    |cmd /c echo "case" && timeout.exe 9
+S|SENSITIVE                                                 |cmd                    |cmd /c echo "SENSITIVE" && timeout.exe 9
+-|-                                                         |-                      |-
+0|>>> Go to Main menu >>>                                   |<LOADMENU>             |main_menu.csv

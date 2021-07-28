@@ -1,0 +1,3 @@
+d|dir cmd                         |cmd       |/c dir /A/B && TIMEOUT 9
+-|Separator; text is ignored      |-         |-
+3|>>> Menu 3 >>>                  |<LOADMENU>|menu3.csv
