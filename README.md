@@ -4,7 +4,7 @@
 
 ## Earth's simplest Powershell 7 console menu system.. maybe?
 
-![Menu](menu.png)
+![Jelovnik](menu.png)
 
 ## WHAT
 
@@ -14,13 +14,13 @@ Jelovnik is fast, simple, "less than 100 lines of code" keyboard-warrior's open-
 
 ## WHY
 
-I needed a menu system which will allow me to quickly add/remove menu items without wondering around through numerous lines of code or risking to break perfectly functioning menu by doing a small change. I was using otherwise uberpowerful AutoHotKey for that purpose, but or some reason I never managed to get used to AHK's menu system.
+I needed a menu system which will allow me to quickly add/remove menu items without wondering around through numerous lines of code or risking to break perfectly functioning menu by doing a small change. I was using otherwise uberpowerful AutoHotKey for that purpose, but for some reason I never managed to get used to AHK's menu system.
 
 
 
 ## WHERE
 
-Powershell 7 console. Could be made compatible with Powershell 5, but IMHO every Powershell keyboard warrior should have v.7 anyway, so...
+Powershell 7 console, Windows. Could be made compatible with Powershell 5, but IMHO every Powershell keyboard warrior should have v.7 anyway, so...
 
 
 
@@ -78,7 +78,6 @@ CSV files have four fields:
 |Title     |Title of an item in menu    |
 |Command   |Command to execute          |
 |Parameters|Arguments for a command     |
-|----------|----------------------------|
 
 _("Key" is case-sensitive character, or number)_
 
@@ -118,10 +117,10 @@ There are several keyboard commands:
 + `Down cursor` and `Up cursor` ... moves through menu down / up
 + `Home` and `End` ... jumps to first / last item in menu
 + `Enter` or `Right cursor` ... executes command on currently selected line; opens submenu
-+ `!` ... opens current menu-file in notepad
-+ `F1` ... displays help-file; help file must have extension ".help" in addition to full name of menu-file (e.g. "main_menu.csv.help")
++ `!` ... opens current menu-file in notepad to edit it "on the fly"; after saving file just restart it or press Space to reload
++ `F1` ... displays help-file; help file must have ".help" extensionin addition to a full file-name (e.g. "main_menu.csv.help")
 
-**While you can have endless sublevels of menus, script remembers only one "previous menu". If you need an option to go back to Main menu from let's say 4th lebel of submenus - just add item "_0 - Main menu_" and command LOADMENU Main_menu.
+**While you can have endless sublevels of menus, script remembers only one "previous menu". If you need an option to go back to Main menu from let's say 4th level of submenus - just add an item "_0 - Main menu_" and command LOADMENU Main_menu.
 
 
 
@@ -149,9 +148,9 @@ There are several keyboard commands:
 
 
 
-###### ToDo - Is such thing even possible?
+###### Is this thing even possible?
 
-+ Use mouse (?) - read mouse location and click in Powershell console?
++ Use mouse - move cursor, read mouse location, click in Powershell console?
 
 
 
