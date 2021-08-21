@@ -151,7 +151,12 @@ There are several keyboard commands:
 ###### Is this thing even possible?
 
 + Use mouse - move cursor, read mouse location, click in Powershell console?
-
++ Yes, it seems posible. This will read current mouse position (in pixels, not in columns rows):
+```powershell
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
+[System.Windows.Forms.Cursor]::Position
+```
 
 
 ## Example menu-file (main_menu.csv)
