@@ -130,6 +130,25 @@ There are several keyboard commands:
 
 
 
+##### .mc.menu simulator
+
+In Windows, you can simulate Midnight Commander ".mc.menu" functionality. Example:
+
++ edit "jelovnik-mc_menu-emulator.cmd" and change path for "pwsh.exe" and script "jelovnik.ps1":
+   + "C:\Program Files\PowerShell\7\pwsh.exe"
+   + "E:\Dev21\Jelovnik.PS1\Jelovnik.ps1"
++ save :)
++ give your menu files extensions ".jelovnik", let's say ".00.jelovnik"
++ right click on ".00.jelovnik"
++ select "Open with.."
++ choose "Look for another app on this PC"
++ browse to attached "jelovnik-mc_menu-emulator.cmd" batch file
++ select it and coose "Always use this app to open .jelovnik files..."
+
+If you made everything OK, now you can have as many menu files as you wish in every folder and you can simply double click on them to open folder specific menu.
+
+
+
 ##### ToDo
 
 
@@ -187,6 +206,8 @@ License: MIT
 [SWID#20210725123801]
 ```
 
+######
 
++ Version 20211025 jelovnik.ps1 sha256:FA52B9D8EC93BE5CD58334BCE2B0C364E4A03B2595AD5DB857CAFC2503C788F4
 
 _*Jelovnik = "menu" on Croatian_
