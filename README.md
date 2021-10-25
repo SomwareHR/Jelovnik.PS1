@@ -124,13 +124,7 @@ There are several keyboard commands:
 
 
 
-##### Known bugs that needs fixing
-
-+ (not aware of any)
-
-
-
-##### .mc.menu simulator
+#### .mc.menu simulator
 
 In Windows, you can simulate Midnight Commander ".mc.menu" functionality. Example:
 
@@ -146,6 +140,12 @@ In Windows, you can simulate Midnight Commander ".mc.menu" functionality. Exampl
 + select it and coose "Always use this app to open .jelovnik files..."
 
 If you made everything OK, now you can have as many menu files as you wish in every folder and you can simply double click on them to open folder specific menu.
+
+
+
+##### Known bugs that needs fixing
+
++ (not aware of any)
 
 
 
