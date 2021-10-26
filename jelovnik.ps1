@@ -93,6 +93,4 @@ DO {
 } until ($script:swvUserKeyPressKey -eq "Escape")
 EXIT
 
-# Jelovnik.PS1 v.21.0728.19 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801]
-# Jelovnik.PS1 v.21.0727.08 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801] ... published 20210728 ... https://github.com/SomwareHR/Jelovnik.PS1
-# Jelovnik.PS1 v.21.1025.11 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801] ... published 20211025 ... https://github.com/SomwareHR/Jelovnik.PS1
+# Jelovnik.PS1 v.21.1026.07 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801] ... published 20211026 ... https://github.com/SomwareHR/Jelovnik.PS1
