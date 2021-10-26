@@ -66,6 +66,7 @@ DO {
 	IF ( $script:swvUserKeyPressKey -eq "Enter"     ) {
 		SWITCH ( $script:Jelovnik[$script:swv_SelectedMenuItem].Key ) {
 			"-" { <# intentionally do nothing #> }
+			"$" { <# intentionally do nothing #> }
 			DEFAULT {
 				$script:swvUserKeyPressChar  = $script:Jelovnik[$script:swv_SelectedMenuItem].Key
 				$script:swv_SelectedMenuItem = 0

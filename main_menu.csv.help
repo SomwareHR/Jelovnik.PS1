@@ -2,10 +2,11 @@
 Help:
 --------------------------------------------------------
 Press a key in a left column to execute a command
-[Up]-[Down] - move through menu
-[Enter]     - execute selected command
-[Right]     - execute selected command
-[!]         - edit current menu
-[ESC]       - exit script
+[Up]-[Down]  - move through menu
+[Home]-[End] - jump to first / last item
+[Enter]      - execute selected item
+[Right]      - execute selected item
+[!]          - edit current menu .csv file
+[ESC]        - exit script
 --------------------------------------------------------
 Press any key to exit Help
