@@ -4,7 +4,7 @@
 
 ## Earth's simplest Powershell 7 console menu system.. maybe?
 
-![Jelovnik](menu.png)
+![Jelovnik](menu.gif)
 
 ## WHAT
 
