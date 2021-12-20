@@ -81,6 +81,8 @@ DO {
 					$script:swc_JelovnikMainMenuFile         = $script:Jelovnik[$j].Parameters
 					$script:swv_SelectedMenuItem             = 0
 				}
+				"<PS1>"  { $LeCommand = "~/"+$script:Jelovnik[$j].Parameters.Trim() ; Invoke-Expression $LeCommand ; EXIT }
+				"<BASH>" { $LeCommand = "~/"+$script:Jelovnik[$j].Parameters.Trim() ; bash $LeCommand ; EXIT }
 				"<ASK>"                                                            {
 					Write-Host "$CrLf $CrLf`Confirm $CrLf $CrLf`Command ...... Powershell $CrLf`Parameters ..." $script:Jelovnik[$j].Parameters.Trim() "$CrLf"
 					$confirmation = Read-Host "[Y]es or [N]o"
@@ -93,4 +95,4 @@ DO {
 } until ($script:swvUserKeyPressKey -eq "Escape")
 EXIT
 
-# Jelovnik.PS1 v.21.1026.07 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801] ... published 20211026 ... https://github.com/SomwareHR/Jelovnik.PS1
+# Jelovnik.PS1 v.21.1220.18 (C)2021 https://github.com/SomwareHR License: MIT [SWID#20210725123801] ... published 20211220 ... https://github.com/SomwareHR/Jelovnik.PS1
