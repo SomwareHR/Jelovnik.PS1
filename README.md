@@ -104,6 +104,8 @@ There are several special keys / commands in menu-file:
 
 + Command `<LOADMENU>` ... loads another menu-file
 + Command `<ASK>` ... executes a Powershell command, but first displays that command and asks for confirmation "Execute?"
++ Command `<PS1>` ... executes other pwsh script; added because of problems with pwsh on Linux
++ Command `<BASH>` ... executes a bash script
 + Key `-` ... draws a separator line; do not add a separator as first or last item in menu as it doesn't makes sense and script doesn't check this - it will simply exit with error
 
 
@@ -208,6 +210,6 @@ License: MIT
 
 ######
 
-+ Version 20211025 jelovnik.ps1 sha256:FA52B9D8EC93BE5CD58334BCE2B0C364E4A03B2595AD5DB857CAFC2503C788F4
++ Version 20211220 jelovnik.ps1 sha256:741D75F522CC0B70F48362C702B94A628FD11E88671017165AFD79ED6E8CA18C
 
 _*Jelovnik = "menu" on Croatian_
